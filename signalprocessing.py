@@ -92,10 +92,10 @@ def main(file):
 
         result = get_max_frq(frq, abs(sample_slice_fft))
 
-        if (min_male_freq < result < max_male_freq)
+        if (min_male_freq < result < max_male_freq):
           digitalWrite(ledred,0)
           digitalWrite(ledblue,1)
-        elif (min_female_freq < result < max_female_freq)
+        elif (min_female_freq < result < max_female_freq):
           digitalWrite(ledblue,0)
           digitalWrite(ledred,1)
 
